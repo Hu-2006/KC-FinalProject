@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044986FA2928FC4700BD7CB3 /* Mal3abView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044986F92928FC4700BD7CB3 /* Mal3abView.swift */; };
+		045DB30729279A1500971FC5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DB30629279A1500971FC5 /* CardView.swift */; };
+		045DB30929279E4300971FC5 /* DealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DB30829279E4300971FC5 /* DealsView.swift */; };
+		045DB30B2927BABA00971FC5 /* CourtsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045DB30A2927BABA00971FC5 /* CourtsView.swift */; };
+		046EDDCB29277F1B00670A74 /* Mala3ibApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDDCA29277F1B00670A74 /* Mala3ibApp.swift */; };
+		046EDDCD29277F1B00670A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDDCC29277F1B00670A74 /* ContentView.swift */; };
+		046EDDCF29277F1C00670A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046EDDCE29277F1C00670A74 /* Assets.xcassets */; };
+		046EDDD229277F1C00670A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046EDDD129277F1C00670A74 /* Preview Assets.xcassets */; };
+		046EDDD929277FE600670A74 /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046EDDD829277FE600670A74 /* SportsModel.swift */; };
+		04B506A929293FDA0077B5B7 /* DealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B506A829293FDA0077B5B7 /* DealView.swift */; };
+		04B506AB292A5BA50077B5B7 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B506AA292A5BA50077B5B7 /* AccountView.swift */; };
+		04B506AD292A60F50077B5B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B506AC292A60F50077B5B7 /* SceneDelegate.swift */; };
+		04B506AF292A62700077B5B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B506AE292A62700077B5B7 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044986F92928FC4700BD7CB3 /* Mal3abView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mal3abView.swift; sourceTree = "<group>"; };
+		045DB30629279A1500971FC5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		045DB30829279E4300971FC5 /* DealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsView.swift; sourceTree = "<group>"; };
+		045DB30A2927BABA00971FC5 /* CourtsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtsView.swift; sourceTree = "<group>"; };
+		046EDDC729277F1B00670A74 /* Mala3ib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mala3ib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046EDDCA29277F1B00670A74 /* Mala3ibApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mala3ibApp.swift; sourceTree = "<group>"; };
+		046EDDCC29277F1B00670A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		046EDDCE29277F1C00670A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046EDDD129277F1C00670A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		046EDDD829277FE600670A74 /* SportsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsModel.swift; sourceTree = "<group>"; };
+		04B506A829293FDA0077B5B7 /* DealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealView.swift; sourceTree = "<group>"; };
+		04B506AA292A5BA50077B5B7 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		04B506AC292A60F50077B5B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04B506AE292A62700077B5B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046EDDC429277F1B00670A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046EDDBE29277F1B00670A74 = {
+			isa = PBXGroup;
+			children = (
+				046EDDC929277F1B00670A74 /* Mala3ib */,
+				046EDDC829277F1B00670A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046EDDC829277F1B00670A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046EDDC729277F1B00670A74 /* Mala3ib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046EDDC929277F1B00670A74 /* Mala3ib */ = {
+			isa = PBXGroup;
+			children = (
+				046EDDCA29277F1B00670A74 /* Mala3ibApp.swift */,
+				046EDDCC29277F1B00670A74 /* ContentView.swift */,
+				045DB30829279E4300971FC5 /* DealsView.swift */,
+				045DB30A2927BABA00971FC5 /* CourtsView.swift */,
+				044986F92928FC4700BD7CB3 /* Mal3abView.swift */,
+				04B506A829293FDA0077B5B7 /* DealView.swift */,
+				045DB30629279A1500971FC5 /* CardView.swift */,
+				046EDDD829277FE600670A74 /* SportsModel.swift */,
+				04B506B0292A62810077B5B7 /* Account */,
+				046EDDCE29277F1C00670A74 /* Assets.xcassets */,
+				046EDDD029277F1C00670A74 /* Preview Content */,
+			);
+			path = Mala3ib;
+			sourceTree = "<group>";
+		};
+		046EDDD029277F1C00670A74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				046EDDD129277F1C00670A74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04B506B0292A62810077B5B7 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				04B506AA292A5BA50077B5B7 /* AccountView.swift */,
+				04B506AC292A60F50077B5B7 /* SceneDelegate.swift */,
+				04B506AE292A62700077B5B7 /* AppDelegate.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046EDDC629277F1B00670A74 /* Mala3ib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046EDDD529277F1C00670A74 /* Build configuration list for PBXNativeTarget "Mala3ib" */;
+			buildPhases = (
+				046EDDC329277F1B00670A74 /* Sources */,
+				046EDDC429277F1B00670A74 /* Frameworks */,
+				046EDDC529277F1B00670A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mala3ib;
+			productName = Mala3ib;
+			productReference = 046EDDC729277F1B00670A74 /* Mala3ib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046EDDBF29277F1B00670A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					046EDDC629277F1B00670A74 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 046EDDC229277F1B00670A74 /* Build configuration list for PBXProject "Mala3ib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046EDDBE29277F1B00670A74;
+			productRefGroup = 046EDDC829277F1B00670A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046EDDC629277F1B00670A74 /* Mala3ib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046EDDC529277F1B00670A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046EDDD229277F1C00670A74 /* Preview Assets.xcassets in Resources */,
+				046EDDCF29277F1C00670A74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046EDDC329277F1B00670A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B506AF292A62700077B5B7 /* AppDelegate.swift in Sources */,
+				04B506AB292A5BA50077B5B7 /* AccountView.swift in Sources */,
+				045DB30B2927BABA00971FC5 /* CourtsView.swift in Sources */,
+				046EDDD929277FE600670A74 /* SportsModel.swift in Sources */,
+				04B506A929293FDA0077B5B7 /* DealView.swift in Sources */,
+				045DB30929279E4300971FC5 /* DealsView.swift in Sources */,
+				04B506AD292A60F50077B5B7 /* SceneDelegate.swift in Sources */,
+				044986FA2928FC4700BD7CB3 /* Mal3abView.swift in Sources */,
+				046EDDCD29277F1B00670A74 /* ContentView.swift in Sources */,
+				045DB30729279A1500971FC5 /* CardView.swift in Sources */,
+				046EDDCB29277F1B00670A74 /* Mala3ibApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		046EDDD329277F1C00670A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046EDDD429277F1C00670A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046EDDD629277F1C00670A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mala3ib/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.S7S.Mala3ib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046EDDD729277F1C00670A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mala3ib/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.S7S.Mala3ib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046EDDC229277F1B00670A74 /* Build configuration list for PBXProject "Mala3ib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EDDD329277F1C00670A74 /* Debug */,
+				046EDDD429277F1C00670A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046EDDD529277F1C00670A74 /* Build configuration list for PBXNativeTarget "Mala3ib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046EDDD629277F1C00670A74 /* Debug */,
+				046EDDD729277F1C00670A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046EDDBF29277F1B00670A74 /* Project object */;
+}
